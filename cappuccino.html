@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deskripsi Produk - Jendela Mengambang Sederhana</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgba(0, 0, 0, 0.5); /* Background gelap transparan */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Menjadikan jendela selalu di tengah */
+        }
+
+        .floating-window {
+            width: 350px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek melayang sederhana */
+            text-align: center;
+        }
+
+        h1 {
+            color: #4e342e; /* Warna coklat */
+            font-size: 22px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        p {
+            color: #5a4637; /* Warna teks coklat gelap */
+            font-size: 15px;
+            line-height: 1.5;
+        
+        }
+
+        .price {
+            font-size: 18px;
+            color: #8d6e63; /* Warna harga coklat */
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .buy-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4e342e; /* Warna coklat */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .buy-button:hover {
+            background-color: #3e2723; /* Warna coklat lebih gelap saat hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="floating-window">
+        <h1>Cappuccino</h1>
+        <img src="cap.png" alt="Gambar Produk">
+        <p>Cappuccino adalah kopi Italia yang terdiri dari espresso, susu panas, dan busa susu. Rasanya seimbang antara kopi yang kuat dan kelembutan susu, biasanya disajikan dengan taburan bubuk cokelat atau kayu manis.
+        <p class="price">Rp 110.000</p>
+        <a href="#" class="buy-button">Beli Sekarang</a>
+    </div>
+
+</body>
+</html>
