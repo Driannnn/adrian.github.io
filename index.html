@@ -1,59 +1,211 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>IMK Coffe</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <header>
-        <h1>IMKopi</h1>
-        <nav>
-            <ul>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#location">Location</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="menu">
-        <h2>Menu Spesial Kita</h2>
-        <div class="menu">
-            <div class="menu-item">
-                <img src="kopi.png" alt="Coffee">
-                <h3>Chocolate Latte</h3>
-                <p>Kopi dan cokelat kaya akan krim kocok di atasnya.</p>
-                <a href="Chocolate Latte.html"><button>Order Now</button></a>
-            </div>
-            <div class="menu-item">
-                <img src="kopi.png" alt="Pastry">
-                <h3>Espresso</h3>
-                <p>Secangkir kopi yang kuat untuk menyemangati hari mu.</p>
-                <a href="Espresso.html"><button>Order Now</button></a>
-            </div>
-            <div class="menu-item">
-                <img src="kopi.png" alt="Muffin">
-                <h3>Cappuccino</h3>
-                <p>Perpaduan nikmat kopi dengan susu steam.</p>
-                <a href="cappuccino.html"><button>Order Now</button></a>
-            </div>
-        </div>
-    </section>
-
-    <section class="location" id="location">
-        <h2>Temukan Kami</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d150434.12232722755!2d111.4269829770763!3d-7.778179142191633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79907f13a1c1c7%3A0x783bb701ee096460!2sJl.%20Raya%20Parang%20No.28%2C%20Ngepeh%2C%20Parang%2C%20Kec.%20Parang%2C%20Kabupaten%20Magetan%2C%20Jawa%20Timur%2063371!5e0!3m2!1sid!2sid!4v1726493203133!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-
-    <footer id="contact">
-        <a href="https://www.instagram.com/elloadrian/" style="color: white;"><p>Instagram @elloadrian</p></a>
-        <a href="https://www.instagram.com/e.verra_/" style="color: white;"><p>Instagram @e.verra_</p></a>
-        </ul>
-    </footer>
-
-</body>
+<html>
+ <head>
+  <title>
+   Travel App
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <div class="bg-blue-500 text-white p-4 flex items-center justify-between">
+   <div class="flex items-center space-x-2">
+    <span>
+     15:04
+    </span>
+    <i class="fab fa-tiktok">
+    </i>
+   </div>
+   <div class="flex items-center space-x-2">
+    <i class="fas fa-signal">
+    </i>
+    <i class="fas fa-wifi">
+    </i>
+    <i class="fas fa-battery-full">
+    </i>
+    <span>
+     87%
+    </span>
+   </div>
+  </div>
+  <div class="bg-blue-500 p-4">
+   <div class="flex items-center bg-white rounded-full p-2">
+    <i class="fas fa-search text-gray-500">
+    </i>
+    <input class="ml-2 w-full outline-none" placeholder="HARRIS Hotel &amp; Conventions Gubeng" type="text"/>
+   </div>
+   <div class="flex items-center justify-between mt-4 text-white">
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-medal">
+     </i>
+     <span>
+      Bronze Priority
+     </span>
+    </div>
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-gem">
+     </i>
+     <span>
+      Points
+     </span>
+     <button class="bg-white text-blue-500 rounded-full px-2">
+      Raih
+     </button>
+    </div>
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-wallet">
+     </i>
+     <span>
+      TPayLater
+     </span>
+     <button class="bg-white text-blue-500 rounded-full px-2">
+      Daftar
+     </button>
+    </div>
+   </div>
+  </div>
+  <div class="bg-white p-4 rounded-t-3xl -mt-4">
+   <div class="grid grid-cols-5 gap-4 text-center">
+    <div>
+     <i class="fas fa-plane text-blue-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      Tiket Pesawat
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-hotel text-blue-900 text-2xl">
+     </i>
+     <p class="text-sm">
+      Hotel
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-heart text-red-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      Xperience
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-train text-yellow-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      Tiket Kereta Api
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-bus text-green-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      Tiket Bus &amp; Travel
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-ship text-red-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      Cruises
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-suitcase-rolling text-blue-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      Paket Wisata Antar-Jemput Bandara
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-car text-green-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      Mobil
+     </p>
+    </div>
+    <div>
+     <i class="fas fa-wallet text-gray-500 text-2xl">
+     </i>
+     <p class="text-sm">
+      TPayLater
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="bg-white p-4 mt-4">
+   <div class="flex items-center space-x-2">
+    <i class="fas fa-gift text-red-500">
+    </i>
+    <span class="font-bold">
+     New User Special Treats
+    </span>
+   </div>
+   <div class="flex items-center justify-between mt-2 bg-blue-100 p-2 rounded-lg">
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-coins text-yellow-500">
+     </i>
+     <span>
+      Dapatkan Points s.d. 120.000 senilai Rp120rb (SISA 30 HARI LAGI)
+     </span>
+    </div>
+    <button class="bg-orange-500 text-white rounded-full px-2">
+     Klik di sini
+    </button>
+   </div>
+   <div class="flex items-center justify-between mt-2 bg-blue-100 p-2 rounded-lg">
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-percent text-blue-500">
+     </i>
+     <span>
+      Diskon 8% Pemesanan Hotel pertama
+     </span>
+    </div>
+   </div>
+  </div>
+  <div class="bg-white p-4 mt-4">
+   <h2 class="font-bold text-lg">
+    Disney Princess the Concert
+   </h2>
+   <img alt="Disney Princess the Concert banner" class="mt-2 rounded-lg" height="200" src="https://storage.googleapis.com/a1aa/image/iiQ1U0Ralp4NORLkBqeyEye8pGGeoNHsWLL6PRMguJukd5PnA.jpg" width="600"/>
+   <button class="bg-blue-500 text-white rounded-full px-4 py-2 mt-2">
+    Selengkapnya
+   </button>
+  </div>
+  <div class="fixed bottom-0 w-full bg-white p-4 flex justify-around border-t">
+   <div class="text-center">
+    <i class="fas fa-home text-blue-500 text-2xl">
+    </i>
+    <p class="text-sm">
+     Awal
+    </p>
+   </div>
+   <div class="text-center">
+    <i class="fas fa-search text-gray-500 text-2xl">
+    </i>
+    <p class="text-sm">
+     Explore
+    </p>
+   </div>
+   <div class="text-center">
+    <i class="fas fa-file-alt text-gray-500 text-2xl">
+    </i>
+    <p class="text-sm">
+     Pesanan
+    </p>
+   </div>
+   <div class="text-center">
+    <i class="fas fa-heart text-gray-500 text-2xl">
+    </i>
+    <p class="text-sm">
+     Simpan
+    </p>
+   </div>
+   <div class="text-center">
+    <i class="fas fa-user text-gray-500 text-2xl">
+    </i>
+    <p class="text-sm">
+     Akun Saya
+    </p>
+   </div>
+  </div>
+ </body>
 </html>
