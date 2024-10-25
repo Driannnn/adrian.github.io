@@ -1,88 +1,219 @@
-<html lang="en">
+<html>
  <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>
-   Traveloka Welcome Page
-  </title>
   <script src="https://cdn.tailwindcss.com">
   </script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
  </head>
- <body class="bg-white">
-  <div class="relative">
-   <div class="bg-blue-500 h-64">
-    <div class="absolute top-0 left-0 w-full h-full bg-cover bg-center" style="background-image: url('https://placehold.co/600x400');">
-    </div>
-    <div class="absolute top-0 left-0 w-full h-full bg-blue-500 opacity-50">
-    </div>
-    <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
-     <img alt="Traveloka logo on a phone screen" class="w-1/2" height="200" src="https://storage.googleapis.com/a1aa/image/SeFPtZkbHlVlSiwJ8N59JitqZRjmskiHZ5QNMiGIOVc7JH1JA.jpg" width="100"/>
+ <body class="bg-gray-100">
+  <div class="bg-blue-500 text-white p-4 flex justify-between items-center">
+   <div class="text-lg">
+    14:16
+   </div>
+   <div class="flex items-center space-x-2">
+    <i class="fas fa-cloud">
+    </i>
+    <div class="text-sm">
+     ...
     </div>
    </div>
+   <div class="text-sm">
+    427 KB/d
+   </div>
+   <div class="text-sm">
+    77%
+   </div>
+  </div>
+  <div class="relative">
+   <img alt="Payday Sale Banner" class="w-full" height="200" src="https://storage.googleapis.com/a1aa/image/os7M6O8M6q40I9x9LMHQ2BUdHS4KKCt8i68gedubyxfzfeoOB.jpg" width="600"/>
    <div class="absolute top-4 left-4 text-white">
-    <div class="flex items-center space-x-2">
-     <span class="text-lg">
-      12:41
-     </span>
-     <i class="fas fa-cloud">
-     </i>
-    </div>
+    <i class="fas fa-arrow-left text-2xl">
+    </i>
    </div>
    <div class="absolute top-4 right-4 text-white">
-    <div class="flex items-center space-x-2">
-     <span class="text-xs">
-      4,41 KB/d
-     </span>
-     <i class="fas fa-signal">
-     </i>
-     <i class="fas fa-wifi">
-     </i>
-     <span class="text-xs">
-      95
-     </span>
-     <i class="fas fa-battery-full">
-     </i>
+    <i class="fas fa-bell text-2xl">
+    </i>
+   </div>
+   <div class="absolute bottom-4 left-4 text-white">
+    <div class="text-3xl font-bold">
+     PAYDAY SALE
+    </div>
+    <div class="text-xl">
+     23-31 OKT 2024
+    </div>
+   </div>
+   <div class="absolute bottom-4 right-4 text-white">
+    <div class="bg-yellow-400 p-2 rounded-lg">
+     <div class="text-2xl font-bold">
+      DISKON s.d. 30%
+     </div>
+     <div class="text-sm">
+      + EKSTRA KUPON s.d. RP1JT
+     </div>
     </div>
    </div>
   </div>
-  <div class="p-6 text-center">
-   <h1 class="text-2xl font-bold mb-2">
-    Halo! Selamat datang di Traveloka.
-   </h1>
-   <p class="text-gray-600 mb-6">
-    Untuk melanjutkan, pilih negara dan bahasa Anda.
-   </p>
-   <div class="mb-4">
-    <label class="block text-gray-700 text-sm font-bold mb-2" for="location">
-     Lokasi Anda
-    </label>
-    <div class="flex items-center justify-between border-b border-gray-300 py-2">
-     <div class="flex items-center">
-      <img alt="Indonesian flag" class="w-6 h-4 mr-2" height="20" src="https://storage.googleapis.com/a1aa/image/afPVkMm5vfuffRPQR674yjTjhGZtTKLLSrGVGYffI4SS9kj6E.jpg" width="20"/>
-      <span>
-       Indonesia
-      </span>
+  <div class="bg-white p-4 rounded-lg shadow-lg mx-4 mt-4">
+   <div class="flex justify-between border-b-2 border-blue-500 pb-2">
+    <div class="text-blue-500 font-bold">
+     Pergi / Pulang
+    </div>
+    <div class="text-gray-500">
+     Multi-kota
+    </div>
+   </div>
+   <div class="mt-4">
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-plane-departure text-blue-500">
+     </i>
+     <div class="text-gray-500">
+      Dari
      </div>
-     <i class="fas fa-chevron-down">
-     </i>
+    </div>
+    <div class="ml-6 text-lg">
+     Jakarta (JKTA)
     </div>
    </div>
-   <div class="mb-6">
-    <label class="block text-gray-700 text-sm font-bold mb-2" for="language">
-     Bahasa Pilihan Anda
-    </label>
-    <div class="flex items-center justify-between border-b border-gray-300 py-2">
-     <span>
-      Indonesia
+   <div class="mt-4">
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-plane-arrival text-blue-500">
+     </i>
+     <div class="text-gray-500">
+      Ke
+     </div>
+    </div>
+    <div class="ml-6 text-lg">
+     Bali / Denpasar (DPS)
+    </div>
+   </div>
+   <div class="mt-4">
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-calendar-alt text-blue-500">
+     </i>
+     <div class="text-gray-500">
+      Tanggal Berangkat
+     </div>
+    </div>
+    <div class="ml-6 text-lg">
+     Sabtu, 26 Okt 2024
+    </div>
+   </div>
+   <div class="mt-4 flex justify-between items-center">
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-users text-blue-500">
+     </i>
+     <div class="text-gray-500">
+      Penumpang
+     </div>
+    </div>
+    <div class="ml-6 text-lg">
+     1 penumpang
+    </div>
+    <div class="flex items-center space-x-2">
+     <i class="fas fa-chair text-blue-500">
+     </i>
+     <div class="text-gray-500">
+      Kelas Penerbangan
+     </div>
+    </div>
+    <div class="ml-6 text-lg">
+     Economy
+    </div>
+   </div>
+   <div class="mt-4 flex justify-between items-center">
+    <div class="text-gray-500">
+     Pulang pergi?
+    </div>
+    <label class="switch">
+     <input type="checkbox"/>
+     <span class="slider round">
      </span>
-     <i class="fas fa-chevron-down">
-     </i>
+    </label>
+   </div>
+   <div class="mt-4">
+    <button class="w-full bg-orange-500 text-white py-2 rounded-lg">
+     Cari
+    </button>
+   </div>
+  </div>
+  <div class="bg-orange-100 p-4 mt-4 mx-4 rounded-lg">
+   <div class="flex items-center space-x-2">
+    <i class="fas fa-bullhorn text-red-500">
+    </i>
+    <div class="text-lg font-bold">
+     Klaim Kuponmu!
     </div>
    </div>
-   <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded-full w-full">
-    Lanjutkan
-   </button>
+   <div class="text-gray-500">
+    Gunakan kupon ini agar lebih untung!
+   </div>
+   <div class="mt-4 flex justify-between items-center bg-white p-4 rounded-lg shadow-lg">
+    <div>
+     <div class="bg-blue-500 text-white px-2 py-1 rounded-lg text-sm">
+      Tiket Pesawat
+     </div>
+     <div class="text-lg font-bold">
+      Diskon Rp500RB
+      <i class="fas fa-fire text-red-500">
+      </i>
+     </div>
+     <div class="text-gray-500">
+      Berlaku untuk Penerbangan Qatar Airways
+     </div>
+    </div>
+    <div class="flex items-center space-x-2">
+     <div class="bg-gray-100 p-2 rounded-lg">
+      QATARFLY
+     </div>
+     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+      COPY
+     </button>
+    </div>
+   </div>
+   <div class="mt-4 flex justify-between items-center bg-white p-4 rounded-lg shadow-lg">
+    <div>
+     <div class="bg-blue-500 text-white px-2 py-1 rounded-lg text-sm">
+      Tiket Pesawat
+     </div>
+     <div class="text-lg font-bold">
+      Diskon s.d. 30%
+     </div>
+     <div class="text-gray-500">
+      Penerbangan Qatar Airways
+     </div>
+    </div>
+    <div class="flex items-center space-x-2">
+     <div class="bg-gray-100 p-2 rounded-lg">
+      PAYDAY30
+     </div>
+     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
+      COPY
+     </button>
+    </div>
+   </div>
+  </div>
+  <div class="fixed bottom-0 w-full bg-white border-t border-gray-300">
+   <div class="flex justify-around py-2">
+    <div class="flex flex-col items-center text-blue-500">
+     <i class="fas fa-search text-2xl">
+     </i>
+     <div class="text-sm">
+      Cari
+     </div>
+    </div>
+    <div class="flex flex-col items-center text-gray-500">
+     <i class="fas fa-map-marker-alt text-2xl">
+     </i>
+     <div class="text-sm">
+      Discover
+     </div>
+    </div>
+   </div>
   </div>
  </body>
 </html>
