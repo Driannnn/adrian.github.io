@@ -1,219 +1,115 @@
 <html>
- <head>
-  <script src="https://cdn.tailwindcss.com">
-  </script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
-  <style>
-   body {
+<head>
+    <title>Shopee Games</title>
+    <script src="https://unpkg.com/react/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
             font-family: 'Roboto', sans-serif;
         }
-  </style>
- </head>
- <body class="bg-gray-100">
-  <div class="bg-blue-500 text-white p-4 flex justify-between items-center">
-   <div class="text-lg">
-    14:16
-   </div>
-   <div class="flex items-center space-x-2">
-    <i class="fas fa-cloud">
-    </i>
-    <div class="text-sm">
-     ...
-    </div>
-   </div>
-   <div class="text-sm">
-    427 KB/d
-   </div>
-   <div class="text-sm">
-    77%
-   </div>
-  </div>
-  <div class="relative">
-   <img alt="Payday Sale Banner" class="w-full" height="200" src="https://storage.googleapis.com/a1aa/image/os7M6O8M6q40I9x9LMHQ2BUdHS4KKCt8i68gedubyxfzfeoOB.jpg" width="600"/>
-   <div class="absolute top-4 left-4 text-white">
-    <i class="fas fa-arrow-left text-2xl">
-    </i>
-   </div>
-   <div class="absolute top-4 right-4 text-white">
-    <i class="fas fa-bell text-2xl">
-    </i>
-   </div>
-   <div class="absolute bottom-4 left-4 text-white">
-    <div class="text-3xl font-bold">
-     PAYDAY SALE
-    </div>
-    <div class="text-xl">
-     23-31 OKT 2024
-    </div>
-   </div>
-   <div class="absolute bottom-4 right-4 text-white">
-    <div class="bg-yellow-400 p-2 rounded-lg">
-     <div class="text-2xl font-bold">
-      DISKON s.d. 30%
-     </div>
-     <div class="text-sm">
-      + EKSTRA KUPON s.d. RP1JT
-     </div>
-    </div>
-   </div>
-  </div>
-  <div class="bg-white p-4 rounded-lg shadow-lg mx-4 mt-4">
-   <div class="flex justify-between border-b-2 border-blue-500 pb-2">
-    <div class="text-blue-500 font-bold">
-     Pergi / Pulang
-    </div>
-    <div class="text-gray-500">
-     Multi-kota
-    </div>
-   </div>
-   <div class="mt-4">
-    <div class="flex items-center space-x-2">
-     <i class="fas fa-plane-departure text-blue-500">
-     </i>
-     <div class="text-gray-500">
-      Dari
-     </div>
-    </div>
-    <div class="ml-6 text-lg">
-     Jakarta (JKTA)
-    </div>
-   </div>
-   <div class="mt-4">
-    <div class="flex items-center space-x-2">
-     <i class="fas fa-plane-arrival text-blue-500">
-     </i>
-     <div class="text-gray-500">
-      Ke
-     </div>
-    </div>
-    <div class="ml-6 text-lg">
-     Bali / Denpasar (DPS)
-    </div>
-   </div>
-   <div class="mt-4">
-    <div class="flex items-center space-x-2">
-     <i class="fas fa-calendar-alt text-blue-500">
-     </i>
-     <div class="text-gray-500">
-      Tanggal Berangkat
-     </div>
-    </div>
-    <div class="ml-6 text-lg">
-     Sabtu, 26 Okt 2024
-    </div>
-   </div>
-   <div class="mt-4 flex justify-between items-center">
-    <div class="flex items-center space-x-2">
-     <i class="fas fa-users text-blue-500">
-     </i>
-     <div class="text-gray-500">
-      Penumpang
-     </div>
-    </div>
-    <div class="ml-6 text-lg">
-     1 penumpang
-    </div>
-    <div class="flex items-center space-x-2">
-     <i class="fas fa-chair text-blue-500">
-     </i>
-     <div class="text-gray-500">
-      Kelas Penerbangan
-     </div>
-    </div>
-    <div class="ml-6 text-lg">
-     Economy
-    </div>
-   </div>
-   <div class="mt-4 flex justify-between items-center">
-    <div class="text-gray-500">
-     Pulang pergi?
-    </div>
-    <label class="switch">
-     <input type="checkbox"/>
-     <span class="slider round">
-     </span>
-    </label>
-   </div>
-   <div class="mt-4">
-    <button class="w-full bg-orange-500 text-white py-2 rounded-lg">
-     Cari
-    </button>
-   </div>
-  </div>
-  <div class="bg-orange-100 p-4 mt-4 mx-4 rounded-lg">
-   <div class="flex items-center space-x-2">
-    <i class="fas fa-bullhorn text-red-500">
-    </i>
-    <div class="text-lg font-bold">
-     Klaim Kuponmu!
-    </div>
-   </div>
-   <div class="text-gray-500">
-    Gunakan kupon ini agar lebih untung!
-   </div>
-   <div class="mt-4 flex justify-between items-center bg-white p-4 rounded-lg shadow-lg">
-    <div>
-     <div class="bg-blue-500 text-white px-2 py-1 rounded-lg text-sm">
-      Tiket Pesawat
-     </div>
-     <div class="text-lg font-bold">
-      Diskon Rp500RB
-      <i class="fas fa-fire text-red-500">
-      </i>
-     </div>
-     <div class="text-gray-500">
-      Berlaku untuk Penerbangan Qatar Airways
-     </div>
-    </div>
-    <div class="flex items-center space-x-2">
-     <div class="bg-gray-100 p-2 rounded-lg">
-      QATARFLY
-     </div>
-     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
-      COPY
-     </button>
-    </div>
-   </div>
-   <div class="mt-4 flex justify-between items-center bg-white p-4 rounded-lg shadow-lg">
-    <div>
-     <div class="bg-blue-500 text-white px-2 py-1 rounded-lg text-sm">
-      Tiket Pesawat
-     </div>
-     <div class="text-lg font-bold">
-      Diskon s.d. 30%
-     </div>
-     <div class="text-gray-500">
-      Penerbangan Qatar Airways
-     </div>
-    </div>
-    <div class="flex items-center space-x-2">
-     <div class="bg-gray-100 p-2 rounded-lg">
-      PAYDAY30
-     </div>
-     <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">
-      COPY
-     </button>
-    </div>
-   </div>
-  </div>
-  <div class="fixed bottom-0 w-full bg-white border-t border-gray-300">
-   <div class="flex justify-around py-2">
-    <div class="flex flex-col items-center text-blue-500">
-     <i class="fas fa-search text-2xl">
-     </i>
-     <div class="text-sm">
-      Cari
-     </div>
-    </div>
-    <div class="flex flex-col items-center text-gray-500">
-     <i class="fas fa-map-marker-alt text-2xl">
-     </i>
-     <div class="text-sm">
-      Discover
-     </div>
-    </div>
-   </div>
-  </div>
- </body>
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const App = () => {
+            return (
+                <div className="bg-white">
+                    <div className="flex items-center justify-between p-4 border-b">
+                        <div className="flex items-center">
+                            <i className="fas fa-arrow-left text-red-500"></i>
+                            <h1 className="ml-2 text-lg font-bold">Shopee Games</h1>
+                        </div>
+                        <div className="flex items-center space-x-2">
+                            <i className="fas fa-video text-gray-500"></i>
+                            <i className="fas fa-shopping-cart text-red-500"></i>
+                            <i className="fas fa-ellipsis-v text-gray-500"></i>
+                        </div>
+                    </div>
+                    <div className="relative">
+                        <img src="https://placehold.co/768x400" alt="Background with a large golden egg and chickens" className="w-full h-64 object-cover" />
+                        <div className="absolute top-4 left-4 flex items-center space-x-2">
+                            <div className="w-8 h-8 rounded-full bg-gray-300"></div>
+                            <div className="bg-gray-200 px-2 py-1 rounded-full">alinkas... Menang 5 Koin</div>
+                        </div>
+                        <div className="absolute top-4 right-4">
+                            <i className="fas fa-box-open text-yellow-500"></i>
+                        </div>
+                        <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2">
+                            <div className="bg-yellow-500 p-4 rounded-full">
+                                <i className="fas fa-hand-pointer text-white text-2xl"></i>
+                            </div>
+                        </div>
+                        <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2">
+                            <button className="bg-yellow-200 px-4 py-2 rounded-full flex items-center space-x-2">
+                                <i className="fas fa-store text-yellow-500"></i>
+                                <span>Ekstra Token</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div className="bg-blue-900 text-white text-center py-2">
+                        <button className="bg-blue-700 px-4 py-2 rounded-full">AMBIL TELUR LAGI</button>
+                    </div>
+                    <div className="bg-blue-900 text-white flex justify-around py-4">
+                        <div className="text-center">
+                            <img src="https://placehold.co/50x50" alt="Shopee Candy" className="mx-auto" />
+                            <div>+1</div>
+                            <div>Shopee Candy</div>
+                        </div>
+                        <div className="text-center">
+                            <img src="https://placehold.co/50x50" alt="Shopee Bubble" className="mx-auto" />
+                            <div>+1</div>
+                            <div>Shopee Bubble</div>
+                        </div>
+                        <div className="text-center">
+                            <img src="https://placehold.co/50x50" alt="Shopee Tanam" className="mx-auto" />
+                            <div>+1</div>
+                            <div>Shopee Tanam</div>
+                        </div>
+                        <div className="text-center">
+                            <img src="https://placehold.co/50x50" alt="Shopee Capit" className="mx-auto" />
+                            <div>+1</div>
+                            <div>Shopee Capit</div>
+                        </div>
+                        <div className="text-center">
+                            <img src="https://placehold.co/50x50" alt="Tebak Kata" className="mx-auto" />
+                            <div>+1</div>
+                            <div>Tebak Kata</div>
+                        </div>
+                    </div>
+                    <div className="bg-red-500 text-white text-center py-4">
+                        <div className="text-lg font-bold">SPESIAL HARI INI</div>
+                        <div className="bg-blue-700 mx-4 my-2 p-4 rounded-lg">
+                            <div className="text-lg font-bold">SHOPEE BUBBLE Meraih Bintang</div>
+                            <div>1-9 NOV</div>
+                            <div>KUMPULKAN BINTANG TERBANYAK & MENANGKAN</div>
+                            <div className="text-2xl font-bold">Emas 1 Gram</div>
+                            <img src="https://placehold.co/100x100" alt="Gold bar and coins" className="mx-auto mt-2" />
+                        </div>
+                    </div>
+                    <div className="bg-white flex justify-around py-4 border-t">
+                        <div className="text-center">
+                            <i className="fas fa-gamepad text-red-500 text-2xl"></i>
+                            <div>Shopee Games</div>
+                        </div>
+                        <div className="text-center">
+                            <i className="fas fa-coins text-gray-500 text-2xl"></i>
+                            <div>Dapatkan Koin</div>
+                        </div>
+                        <div className="text-center">
+                            <i className="fas fa-check-circle text-gray-500 text-2xl"></i>
+                            <div>BARU! Dapat s/d 25RB</div>
+                        </div>
+                    </div>
+                </div>
+            );
+        };
+
+        ReactDOM.render(<App />, document.getElementById('root'));
+    </script>
+</body>
 </html>
